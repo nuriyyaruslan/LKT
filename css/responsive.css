@@ -1,0 +1,133 @@
+
+@media screen and (min-width:1201px){
+    .menu-part{
+        width:86.7% !important;
+    }
+    .head-menu{
+        box-shadow: 0 0 12px 0 rgba(0,0,0,0.1), 0 10px 30px 0 rgba(0,0,0,0.2);
+    }
+    .foot-right{
+        position: relative;
+        top:70px;
+    }
+}
+@media screen and (max-width:992px){
+    .head-menu{
+        text-align: right;
+    }
+    .head-txt span{
+        display: none;
+    }
+    .head-menu{
+        background-color: transparent;
+    }
+}
+@media screen and (max-width:1200px){
+    .head-menu{
+        text-align: right;
+    }
+    .bg-header{
+        height: 40px;
+    }
+    .index-header{
+        height: 100px;
+    }
+    .button-collapse i{
+        color:#fff;
+    }
+    .logo{
+        height: 60px;
+        top:20px;
+    }
+    .mob-menu li a{
+        text-align: left !important;
+        font-size: 11px !important;
+    }
+    .mob-menu{
+        padding-top:20px;
+    }
+
+    .head-phone{
+        display: none;
+    }
+    .head-txt{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .hd-left{
+        text-align: left;
+    }
+    .bg-header{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .menu-part{
+        float: right !important;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1199px){
+    .head-txt{
+        margin-top:32px;
+    }
+    .logo{
+        height: 74px;
+        top:42px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .slide-txt{
+        font-size:20px;
+        margin-top:0;
+    }
+    .slider-content{
+        padding:20px 20px 0 20px !important;
+    }
+    .sec-carousel .owl-dots{
+        padding-left:24px;
+        top:-44px;
+    }
+    .sec-carousel .owl-dots .owl-dot span,.sec-carousel .owl-dots .owl-dot{
+        width:16px !important;
+        height: 16px !important;
+    }
+    .sl-btn-cover{
+        bottom:44px;
+        right:28px;
+    }
+}
+@media screen and (max-width:1200px) and (min-width:992px){
+    .sec-content{
+        margin-top:70px;
+    }
+}
+@media screen and (max-width:992px){
+    .sec-content{
+        margin-top:0 !important;
+        padding:20px;
+    }
+}
+@media screen and (max-width:600px){
+    .slide-txt{
+        font-size:13px;
+    }
+    .sl-btn-cover{
+        right:16px;
+    }
+    .sec-carousel .owl-dots{
+        padding-left:10px;
+    }
+    .sec-right, .sec-cov,.right-btn .col{
+        padding-left:0 !important;
+    }
+}
+@media screen and (max-width:1180px) {
+    .info-section,.txt-part,.sec-content,.footer-part{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .full-foot .col{
+        padding: 0;
+    }
+}
